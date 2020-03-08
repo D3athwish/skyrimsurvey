@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<link rel="stylesheet" href="skyrim.css">
+  </head>
+  <body>
+    <h1 id="title">Character creation</h1>
+    <p id="description">To create a character please fill out the form below:</p>
+    <form id="survey-form">
+      <div id="form-group">
+        <label id="name-label" for="name" class="label label1">Character name: </label>
+        <input type="text" id="name" name="name" required placeholder=" Enter your name" class="form-control">
+      </div>
+      <div id="form-group">
+        <label id="email-label" for="email" class="label">Email: </label>
+        <input type="email" id="email" name="email" required placeholder=" Enter your email" class="form-control">
+      </div>
+      <div id="form-group">
+        <label id="number-label" for="age" class="label">Age: </label>
+        <input type="number" id="number" name="age" required placeholder=" Enter your age" min="1" max="122" class="form-control">
+      </div>
+      <div id="form-group">
+        <p id="character" class="label">Race:</p>
+        <select id="dropdown" name="role" required class="form-control option">
+          <option selected disabled>Select a race</option>
+          <option value="high_elf">High Elf</option>
+          <option value="argonian">Argonian</option>
+          <option value="wood_elf">Wood Elf</option>
+          <option value="breton">Breton</option>
+          <option value="dark_elf">Dark Elf</option>
+          <option value="imperial">Imperial</option>
+          <option value="nord">Nord</option>
+          <option value="orsimer">Orsimer</option>
+          <option value="redguard">Redguard</option>
+        </select>
+      </div>
+      <div id="form-group">
+        <p class="label">Difficulty</p>
+        <div id="form-group">
+        <label class="smaller">
+          <input type="radio" id="radio" name="recommendation" value="easy" class="radio">
+          Easy
+        </label>
+        </div>
+        <div id="form-group">
+        <label class="smaller">
+          <input type="radio" id="radio" name="recommendation" value="medium" class="radio">
+          Medium
+        </label>
+        </div>
+        <label class="smaller">
+          <input type="radio" id="radio" name="recommendation" value="hard" class="radio">
+          Hard
+        </label>
+      </div>
+      <div id="form-group">
+        <p class="label">Select starting trait(s): </p>
+        <div id="form-group">
+          <label>
+            <input type="checkbox" name="preference" value="destruction" class="radio">Destruction</label>
+        </div>
+        <div id="form-group">
+        <label>
+          <input type="checkbox" name="preference" value="conjuring" class="radio">Conjuring</label>
+        </div>
+        <label><input type="checkbox" name="preference" value="restoration" class="radio">Restoration</label>
+      </div>
+      <div id="form-group">
+        <p class="label">Write your character's story:</p>
+        <textarea id="comments" name="comment" placeholder=" There once was a..."></textarea>
+      </div>
+      <div id="form-group">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

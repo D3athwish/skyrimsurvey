@@ -1,0 +1,130 @@
+body
+{
+  background-image: url("https://images3.alphacoders.com/577/577706.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 10px; 
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+#title
+{
+  padding: 10px;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+#description
+{
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#survey-form
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-left;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+#form-group
+{
+  background-color: ;
+  padding-bottom: 10px;
+  padding-left:;
+  border-radius:;
+}
+
+.form-control
+{
+  display: block;
+  width: 90%;
+  height: 2rem;
+  border: 1px solid darkgreen;
+  margin: 0 auto;
+}
+
+.label
+{
+  padding-left: 5%;
+  display: block;
+  padding-bottom: 0.3rem;
+}
+
+.label1
+{
+  padding-top: 20px;
+}
+
+#character
+{
+  margin-bottom: 0;
+}
+
+.radio
+{
+  margin-left: 5%;
+  color: gray;
+}
+
+#comments
+{
+  
+  margin-left: 5%;
+  min-height: 100px;
+  min-width: 89.32%;
+  border-radius: 10px;
+}
+
+button
+{
+  width: 90%;
+  margin-left: 5%;
+  background-color: lightgreen;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input[type="text"]
+{
+  border-radius: 10px;
+}
+
+input[type="email"]
+{
+  border-radius: 10px;
+}
+
+input[type="number"]
+{
+  border-radius: 10px;
+  border:;
+}
+
+.option
+{
+  border-radius: 10px;
+  height: 2rem;
+  display: block;
+}
+
+input:hover, select:focus, textarea:focus, button:hover, input:checked, textarea:hover
+{
+  box-shadow: 1px 1px 20px rgba(128, 128, 128, 1);
+}
+
+@media (max-width: 1000px)
+  {
+    #survey-form
+    {
+      width: 90%;
+    }
+  }
