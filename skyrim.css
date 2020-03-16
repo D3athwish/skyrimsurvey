@@ -88,9 +88,10 @@ button
   width: 90%;
   margin-left: 5%;
   background-color: lightgreen;
-  border: none;
   padding: 20px;
   border-radius: 10px;
+  cursor: pointer;
+  border-style: groove;
 }
 
 input[type="text"]
